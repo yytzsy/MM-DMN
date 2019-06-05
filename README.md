@@ -35,7 +35,7 @@ This folder contains the codes for data_provider, basic feature extraction netwo
 
 ## Run the code
 
-### (1) Take the model TripleAttentiveModal_DMN as an example:  
+Take the model TripleAttentiveModal_DMN as an example:  
     python run_triple_attentive_modal_dmn.py --dataset msrvtt_qa --gpu 0 --config 0 --log msrvtt_qa_TripleAttentiveModel --mode train  
 * 'dataset': msrvtt_qa or msvd_qa  
 * 'gpu': gpu id, depends on your server  
