@@ -3,9 +3,9 @@ The implementation for Multi-Modal Dynamic Memory Network (MM-DMN) with tensorfl
 ############## Descriptions of codes ##############
 
 (1) ./model: This folder contains all of the models we mentioned in the report. 
-	* DMN_single_A.py: Dynamic memory network with MFCC audio features (corresponding to DMN-A)
-	* DMN_single_VM.py: Dynamic memory network with VGG visual features or C3D motion features  (corresponding to DMN-V and DMN-M)
-	* Multimodal_DMN_VA.py: Bi-Modal dynamic memory network with visual and audio features (corresponding to DMN-VA)
+	# DMN_single_A.py: Dynamic memory network with MFCC audio features (corresponding to DMN-A)
+	# DMN_single_VM.py: Dynamic memory network with VGG visual features or C3D motion features  (corresponding to DMN-V and DMN-M)
+	# Multimodal_DMN_VA.py: Bi-Modal dynamic memory network with visual and audio features (corresponding to DMN-VA)
 	* Multimodal_DMN_VM.py: Bi-Modal dynamic memory network with visual and motion features (corresponding to DMN-VM)
 	* Triplemodal_DMN.py: Triple-Modal dynamic memory network with visual, motion and audio features. In this setting, the question does not guide the fusion of the multi-modal features. (corresponding to DMN-VMA)
 	* TripleAttentiveModal_DMN.py: Triple-Modal dynamic memory network with visual, motion and audio features. In this setting, the question guides the fusion of multi-modal signals with attention mechanism. (corresponding to MM-DMN)
