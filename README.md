@@ -1,6 +1,7 @@
 The implementation for Multi-Modal Dynamic Memory Network (MM-DMN) with tensorflow.
 
 ############# Descriptions of codes ############# 
+
 (1) ./model: This folder contains all of the models we mentioned in the report. 
     * DMN_single_A.py: Dynamic memory network with MFCC audio features (corresponding to DMN-A)
     * DMN_single_VM.py: Dynamic memory network with VGG visual features or C3D motion features  (corresponding to DMN-V and DMN-M)
